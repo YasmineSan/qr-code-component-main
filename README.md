@@ -11,11 +11,11 @@ This is my solution to the **QR code component** challenge on Frontend Mentor.
 ## Overview
 
 ### Screenshot
-Add a screenshot of your final UI (e.g., `./images/screenshot.png`).
+
 
 ### Links
 - Solution URL: [add here]
-- Live Site URL: [add here]
+- Live Site URL: [(https://yasminesan.github.io/qr-code-component-main/)]
 
 ## My process
 

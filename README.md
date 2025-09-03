@@ -1,9 +1,9 @@
 
----
 
-# 🇬🇧 README (minimal, en anglais — pour Frontend Mentor)
 
-```markdown
+# README 
+
+
 # Frontend Mentor – QR code component solution
 
 This is my solution to the **QR code component** challenge on Frontend Mentor.
@@ -11,7 +11,7 @@ This is my solution to the **QR code component** challenge on Frontend Mentor.
 ## Overview
 
 ### Screenshot
-Add a screenshot of your final UI (e.g., `./screenshot.png`).
+Add a screenshot of your final UI (e.g., `./images/screenshot.png`).
 
 ### Links
 - Solution URL: [add here]

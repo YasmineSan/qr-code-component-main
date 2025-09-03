@@ -16,16 +16,16 @@ body {
 
 .card { 
     background: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    max-width: 300px;
+    border-radius: 15px;
+    max-width: 20rem;
     text-align: center;
-    padding: 15px;
+    padding: clamp(14px, 3vw, 20px) ;
     box-shadow: 0 10px 20px rgba(0,0,0,0.08), 0 4px 6px rgba(0,0,0,0.04);
 }
 main {
     display: grid;
     place-items: center;
-    padding: 2px;
+    
 }
 
 img {
@@ -40,20 +40,21 @@ img {
     text-align: center;
     color: hsl(216, 15%, 48%);
     font-weight: 400;
-    font-size: 15px;
-    margin: 5% 2%;
+    font-size: 1rem;
+    margin: clamp(1rem, 3vw, 1.1rem);
 }
 
-.card h2{
+.card h1{
+
     font-weight: 700;
-    font-size: 20px;
-    margin: 5% 2%;
+    font-size: 1.25rem;
+    margin: clamp(0.8rem, 3vw, 1.1rem);
 }
 
 footer {
     text-align: center;
     font-size: 11px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     
 }
 

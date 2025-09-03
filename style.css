@@ -1,30 +1,38 @@
-* {
+:root{
+  --bg: hsl(212,45%,89%);
+  --white: hsl(0,0%,100%);
+  --text: hsl(218,44%,22%);
+  --muted: hsl(216,15%,48%);
+  --link: hsl(228,45%,44%);
+}
+*,*::before,*::after { 
     box-sizing: border-box;
+ }
+
+html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Outfit', sans-serif;
-}
-
+    }
 body {
     display: grid;
     grid-template-rows: 1fr auto; 
-
     min-height: 100vh;
-    place-items: center;
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--bg);
+    font-family: 'Outfit', sans-serif;
 }
 
 .card { 
-    background: hsl(0, 0%, 100%);
-    border-radius: 15px;
-    max-width: 20rem;
+    background: var(--white);
+    border-radius: clamp(0.625rem, 2vw, 1.25rem);
+    width: min(92vw, 20rem);
     text-align: center;
-    padding: clamp(14px, 3vw, 20px) ;
+    padding: clamp(0.875rem, 3vw, 1.25rem); 
     box-shadow: 0 10px 20px rgba(0,0,0,0.08), 0 4px 6px rgba(0,0,0,0.04);
 }
 main {
     display: grid;
     place-items: center;
+    padding: 1.5rem;
     
 }
 
@@ -35,22 +43,22 @@ img {
 }
 
 
-
+/* Typo */
 .card p {
     text-align: center;
-    color: hsl(216, 15%, 48%);
+    color: var(--muted);
     font-weight: 400;
     font-size: 1rem;
     margin: clamp(1rem, 3vw, 1.1rem);
 }
 
 .card h1{
-
+    
     font-weight: 700;
     font-size: 1.25rem;
     margin: clamp(0.8rem, 3vw, 1.1rem);
 }
-
+/* footer */
 footer {
     text-align: center;
     font-size: 11px;
@@ -60,6 +68,6 @@ footer {
 
 a {
     text-decoration: none;
-    color: hsl(228, 45%, 44%);
+    color: var(--link)
 }
 

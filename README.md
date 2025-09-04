@@ -1,39 +1,71 @@
+Frontend Mentor - Social links profile solution
 
+This is a solution to the Social links profile challenge on Frontend Mentor.
 
+Overview
+The challenge
 
-# README 
+Users should be able to:
 
+See hover and focus states for all interactive elements on the page
 
-# Frontend Mentor – QR code component solution
+Screenshot
 
-This is my solution to the **QR code component** challenge on Frontend Mentor.
+<img width="586" height="762" alt="image" src="https://github.com/user-attachments/assets/95e063ad-daf6-4227-968b-c4877feffe0a" />
 
-## Overview
+Links
 
-### Screenshot
+ Live site url : 
 
+ 
+My process
 
-### Links
-- Solution URL: [add here]
-- Live Site URL: [(https://yasminesan.github.io/qr-code-component-main/)]
+Built with
 
-## My process
+Semantic HTML5 markup
 
-### Built with
-- Semantic HTML5
-- CSS (HSL, light reset)
-- Centering with **CSS Grid** on `body` (`grid-template-rows: 1fr auto`)
-- Responsive images (`width: 100%; height: auto`)
-- Mobile-first without media queries (thanks to `max-width`)
+CSS custom properties (variables)
 
-### What I learned
-```css
-/* Keep footer at the bottom with Grid */
-body {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr auto;
+Flexbox
+
+Mobile-first workflow
+
+What I learned :
+
+This project helped me practice:
+```
+:root {
+  --green: hsl(75, 94%, 57%);
+  --grey-800: hsl(0, 0%, 12%);
 }
-main { display: grid; place-items: center; }
 
+```
 
+Using CSS custom properties to make the code more maintainable:
+
+```
+img {
+  border-radius: 50%;
+  width: clamp(25%, 15vw, 30%);
+  margin: clamp(10px, 5%, 20px);
+}
+```
+
+Continued development
+
+For future projects, I want to:
+
+Improve my design system by setting variables for spacing, font sizes, and border-radius from the start.
+
+Practice using rem vs % more consistently.
+
+Experiment with CSS Grid in addition to Flexbox.
+
+Useful resources : 
+
+MDN Web Docs - clamp() -
+CSS Tricks - A Complete Guide to Flexbox
+
+Author
+
+Frontend Mentor - @YasmineSan
